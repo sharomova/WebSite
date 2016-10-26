@@ -1,0 +1,433 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-03-07, 15:51:40
+    Author     : Olga
+*/
+
+.projet{
+    line-height: 1.8 !important;
+    word-spacing: 7px;
+    color: black !important;   
+}
+
+hr {
+    border-color: #8c8c8c;
+}
+
+body{
+    background-color: #D3D3D0;
+    color: black !important;   
+     background: url(/BigWeb2/img/gray1.jpg) no-repeat center fixed !important;
+    -webkit-background-size: cover !important; /* pour Chrome et Safari */
+    -moz-background-size: cover !important; /* pour Firefox */
+    -o-background-size: cover !important; /* pour Opera */
+    background-size: cover !important; /* version standardisée */
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+    background-size: cover;
+}
+.carousel-inner {
+    margin-left: 15px;
+}
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.table{
+    background-color: #D3D3D0;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+    padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+    opacity: 1;
+    -webkit-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+    bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+    background-color: #e84a64;
+    border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+.white_container{
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*  -----------------------   */
+#imaghead {
+    position: relative;
+    margin-top: -100px !important;
+    padding:150px !important;
+    background: url(/BigWeb2/img/main.png) no-repeat center fixed !important;
+    -webkit-background-size: cover !important; /* pour Chrome et Safari */
+    -moz-background-size: cover !important; /* pour Firefox */
+    -o-background-size: cover !important; /* pour Opera */
+    background-size: cover !important; /* version standardisée */
+}
+#big{
+    color:#ffffff;
+    text-shadow: 6px 6px #700303;
+    font-size: 108px !important;
+
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+.navbar{
+    background-color: #333;
+    border-color: #333;
+    border-radius: 0px;
+    height: 51px;
+}
+
+.fixed-nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+#MainNavigation{
+    margin-bottom: 0px ! important; 
+}
+
+#MainContainer{
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 51px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+/*message*/
+.message_login{
+    background-color: #FFF;
+    border-radius: 30px;
+}
+
+/*custom button*/
+.bigweb_submit{
+    background-color: #000038; 
+}
+
+.error-message{
+    color: red !important;
+    font-size: 12px !important;
+}
+
+.Profile-General-Information{
+    text-align: center !important;
+}
+.btn-Profil-General{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.hideme, .description
+{
+    display: none;
+}
+
+#homeContent{
+    height: 1700px !important;
+}
+
+.myfooter{
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    height: 30px;
+    width:100%;
+}
+
+/*/VIDEO TUTORIAL CSS*/
+
+.lightboxcontainer {
+    width:100%;
+    text-align:left;
+}
+.lightboxleft {
+    width: 40%;
+    float:left;
+}
+.lightboxright {
+    width: 60%;
+    float:left;
+}
+.lightboxright iframe {
+    min-height: 390px;
+}
+.divtext {
+    margin: 36px;
+}
+@media (max-width: 800px) {
+    .lightboxleft {
+        width: 100%;
+    }
+    .lightboxright {
+        width: 100%;
+    }
+    .divtext {
+        margin: 12px;
+    }
+}
+
+div.image_tn {
+    float: left;
+    margin-left: 12px;
+}
+
+.video_title{
+    font-size:16px;
+    font-weight: bold;
+    margin:12px 0px;
+}
+
+.video_description{
+    font-size:14px;
+    line-height:20px;
+}
+
+.responsive{
+    padding-bottom: 60% !important;
+}
+
+#navcontainer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navcontainer{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #333; 
+}
+
+#navcontainer li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+#navcontainer li:last-child {
+    border-right: none;
+}
+
+#navcontainer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    height: 52px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navcontainer li a:hover:not(.active_nav) {
+    background-color: #111;
+}
+
+.active_nav {
+    background-color: #700303;
+}
+
+.video {
+    display: none;
+}
+
+#title{
+    width: 100%;
+}
+/**/
+.container_padded{
+
+}
+.img-fluid1{
+    width: 100%;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+/**************************/
+
+/*Thumbnail Background*/
+.thumb {
+	width: 540px; height: 290px; margin: 70px auto;
+	perspective: 1000px;
+}
+.thumb a {
+	display: block; width: 100%; height: 100%;
+	/*double layered BG for lighting effect*/
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url(/BigWeb2/img/logiciel.png);
+		/*url("http://thecodeplayer.com/u/m/i1.png");*/
+	/*disabling the translucent black bg on the main image*/
+	background-size: 0, cover;
+	/*3d space for children*/
+	transform-style: preserve-3d;
+	transition: all 0.5s;
+}
+.thumb:hover a {transform: rotateX(80deg); transform-origin: bottom;}
+/*bottom surface */
+.thumb a:after {
+	/*36px high element positioned at the bottom of the image*/
+	content: ''; position: absolute; left: 0; bottom: 0; 
+	width: 100%; height: 36px;
+	/*inherit the main BG*/
+	background: inherit; background-size: cover, cover;
+	/*draw the BG bottom up*/
+	background-position: bottom;
+	/*rotate the surface 90deg on the bottom axis*/
+	transform: rotateX(90deg); transform-origin: bottom;
+}
+/*label style*/
+.thumb a span {
+	color: white; text-transform: uppercase;
+	position: absolute; top: 100%; left: 0; width: 100%;
+	font: bold 12px/36px Montserrat; text-align: center;
+	/*the rotation is a bit less than the bottom surface to avoid flickering*/
+	transform: rotateX(-89.99deg); transform-origin: top;
+	z-index: 1;
+}
+/*shadow*/
+.thumb a:before {
+	content: ''; position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
+	background: rgba(0, 0, 0, 0.5); 
+	box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+	transition: all 0.5s; 
+	/*by default the shadow will be almost flat, very transparent, scaled down with a large blur*/
+	opacity: 0.15;
+	transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+	transform-origin: bottom;
+}
+.thumb:hover a:before {
+	opacity: 1;
+	/*blurred effect using box shadow as filter: blur is not supported in all browsers*/
+	box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+	/*pushing the shadow down and scaling it down to size*/
+	transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+
+.img-zoom {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition_video {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/*Search Box*/
+#search {
+    width: 357px;
+    margin: 4px;
+}
+#search_text{
+    width: 297px;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    border: 0 none;
+    height: 44px;
+    margin-bottom: 0;
+    margin-right: 0;
+    color: white;
+    outline: none;
+    background: #700303;
+    float: left;
+    box-sizing: border-box;
+    transition: all 0.15s;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white;
+}
+#search_text:focus {
+    background: #A60F0F ;
+}
+#search_button {
+    border: 0 none;
+    background: #700303 url(search.png) center no-repeat;
+    width: 60px;
+    float: right;
+    padding: 0;
+    text-align: center;
+    height: 44px;
+    cursor: pointer;
+}
